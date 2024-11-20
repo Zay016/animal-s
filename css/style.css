@@ -1,0 +1,1166 @@
+      /******Body******/
+      @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,900;0,1000;1,1000&display=swap');
+
+      body{
+              font-family: 'Nunito', sans-serif;
+              background: linear-gradient(
+              90deg,
+              rgba(231, 246, 248, 0.418) 35%,
+              rgb(202, 234, 253) 70%);}
+      
+      :root {
+              --color_primario: #3e3e3ffd;
+              --color_primario_suave: #3482db;
+              --color_blanco: #fff;
+              --texto-sombra: #6e6d6d;
+              --altura_header: 150px;
+              --fon_zivetitulo: 55px;
+              --fon-ziveh:35px;
+              --fon-ziveparra:25px
+      }
+      
+                              /******Margen******/
+      *{
+              margin: 0;
+              padding: 0;
+              box-sizing: border-box;
+      }
+      
+                              /******Header*******/
+      header{
+              height: var(--altura_header);
+              background-color:var(--color_primario);
+              padding: 12px;
+              top: 0;
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+              z-index: 1;
+              position: sticky;
+      }
+      
+      header img{
+                      height: 140px;
+      }
+      header nav ul{
+                      list-style: none;
+                      display: flex;
+                      justify-content:end;
+      }
+      header nav ul li{
+                              margin: 10px;
+                              align-items: end;
+                              display: flex;
+                              justify-content:end;
+      }
+      header nav ul li a{
+                              text-decoration: none;
+                              color: var(--color_primario_suave);
+                              font-size: var(--fon-ziveparra);
+                              margin: 10px;
+                              display: flex;
+      }
+      header nav ul li a:hover{
+                                      color: rgb(253, 253, 253);
+      }
+      
+      .textohead{ 
+                      font-family: "Nunito", serif;
+                      font-optical-sizing: auto;
+                      font-weight: 900;
+                      font-style: normal;}
+      
+                              /******Carrusel******/
+      .bienestar{     
+                      text-align: center;
+                      font-family: "Nunito", serif;
+                      font-optical-sizing: auto;
+                      font-weight: 900;
+                      font-style: normal;
+                      color: var(--color_primario);
+                      text-shadow: 1px 1px 10px var(--texto-sombra);
+                      padding-top: 80px;
+                      padding-bottom: 80px;
+                      display: flex;
+                      justify-content: center;
+                      align-items: center;
+      }
+      .bienestar h1{
+              font-size: var(--fon_zivetitulo);
+      }
+      .it{
+              background-color: var(--color_primario);
+              padding-top: 50px;
+              padding-bottom: 50px;
+      }
+      .it2{   
+              font-family: "Nunito", serif;
+              font-optical-sizing: auto;
+              font-weight: 900;
+              font-style: normal;
+              text-align: center;
+              display: flex;
+              align-items: center;
+              justify-content:space-evenly;
+              padding: 20px;
+              margin: 20px;
+      }
+      .it2 li{
+                      list-style: none;
+      }
+      .it2 li a{
+                      text-shadow: 1px 1px 10px var(--texto-sombra);
+                      color: rgb(255, 255, 255);
+                      text-decoration: none;
+                      font-size: 30px;
+      }
+      .animals{
+                      align-items: center;
+                      justify-content: center;
+                      display: flex;
+                      flex-direction: column;
+                      padding-top: 80px ;
+      }
+      .clinica h2{    
+                      font-family: "Nunito", serif;
+                      font-optical-sizing: auto;
+                      font-weight: 900;
+                      font-style: normal;
+                      text-align: center;
+                      text-shadow: 1px 1px 10px var(--texto-sombra);
+                      color: var(--color_primario_suave);
+                      font-size: var(--fon_zivetitulo); 
+      }
+      .parrafo{
+                      font-family: "Nunito", serif;
+                      font-optical-sizing: auto;
+                      font-weight: 900;
+                      font-style: normal;
+                      color: var(--color_primario);
+                      font-size: var(--fon-ziveparra);
+                      padding-left: 300px;
+                      padding-right: 300px;
+                      padding-top: 50px;
+                      padding-bottom: 50px;
+                      text-align: center;}
+      
+      .quienes{
+                      display: flex;
+                      Justify-content: Space-evenly;
+                      padding-top: 80px;
+                      padding-bottom: 150px;
+      }
+      .eje{
+              display: flex;
+      }
+      .img{
+              height: 800px;
+      }
+      .somos{
+                      display: flex;
+                      flex-direction: column;
+                      background-color: aliceblue;
+                      padding: 50px;
+                      height: 800px;
+                      width: 750px;
+                      Justify-content: Space-evenly;
+                      gap: 25px;
+      } 
+      .somos h3{      text-shadow: 1px 1px 10px var(--texto-sombra);
+                      font-family: "Nunito", serif;
+                      font-optical-sizing: auto;
+                      font-weight: 900;
+                      font-style: normal;
+                      font-size: var(--fon_zivetitulo);
+                      color:var(--color_primario_suave);
+                      
+      }
+      .somos h4{      
+                      
+                      font-size: 35px;
+                      color: var(--color_primario);
+              
+      }
+      .parrafo2{      
+                      font-family: "Nunito", serif;
+                      font-optical-sizing: auto;
+                      font-weight: 900;
+                      font-style: normal;
+                      font-size: var(--fon-ziveparra);
+                      color: var(--color_primario_suave);
+      }
+      .familia{ 
+                      background-color: aliceblue;
+                      text-align: center;
+                      color: var(--color_primario);
+                      display: flex;
+                      justify-content: center;
+                      align-items: center;
+                      height: 90px;
+                      margin-top: 40px;
+      }
+      .fami{
+              text-shadow: 1px 1px 10px var(--texto-sombra);
+              font-family: "Nunito", serif;
+              font-optical-sizing: auto;
+              font-weight: 900;
+              font-style: normal;
+              font-size: var(--fon_zivetitulo);
+      }
+      .tarjetas{
+                      display: flex;
+                      background-color: aliceblue;
+                      height: 870px;
+      }
+      .card-groupe{
+                      box-sizing: border-box;
+                      display: flex;
+                      flex-direction: row;
+                      flex-wrap: wrap;
+                      font-size: 16px;
+                      font-weight: 500;
+                      height: 200px;
+                      line-height: 24px;
+                      margin-bottom: 0px;
+                      margin-left: 0px;
+                      margin-right: 0px;
+                      margin-top: 0px;
+                      padding-bottom: 0px;
+                      padding-left: 0px;
+                      padding-right: 0px;
+                      padding-top: 0px;
+                      text-align: center;
+                      unicode-bidi: isolate;
+      }
+      .cards{
+                      background-clip: border-box;
+                      background-color: aliceblue;
+                      border-image-repeat: stretch;
+                      border-image-slice: 100%;
+                      border-image-source: none;
+                      border-image-width: 1px;
+                      border-left-color: var(--color_primario);
+                      border-left-style: solid;
+                      border-left-width: 1px;
+                      border-right-color: var(--color_primario);
+                      border-right-style: solid;
+                      border-right-width: 1px;
+                      border-top-color: aliceblue;
+                      border-top-style: solid;
+                      border-top-width: 10px;
+                      box-sizing: border-box;
+                      color: rgb(253, 253, 253);
+                      display: flex;
+                      flex-basis: 0%;
+                      flex-direction: column;
+                      flex-grow: 1;
+                      flex-shrink: 0;
+                      font-size: 16px;
+                      font-weight: 450;
+                      height: 840px;
+                      line-height: 24px;
+                      margin-bottom: 0px;
+                      margin-left: 0px;
+                      margin-right: 0px;
+                      margin-top: 0px;
+                      min-width: 0px;
+                      overflow-wrap: break-word;
+                      padding-bottom: 0px;
+                      padding-left: 0px;
+                      padding-right: 0px;
+                      padding-top: 5px;
+                      position: relative;
+                      text-align: center;
+      }
+      .card-titlee{
+                      box-sizing: border-box;
+                      color: var(--color_primario_suave);
+                      display: block;
+                      font-size: 34px;
+                      font-weight: 500;
+                      height: 60px;
+                      line-height: 30px;
+                      padding-bottom: 10px;
+                      padding-left: 20px;
+                      padding-right: 15px;
+                      padding-top: 20px;
+                      text-align: start;
+                      unicode-bidi: isolate;
+                      width: 670px;
+                      font-family: "Nunito", serif;
+                      font-optical-sizing: auto;
+                      font-weight: 900;
+                      font-style: normal;
+      }
+      .card-texte{
+                      box-sizing: border-box;
+                      color: var(--color_primario);
+                      display: block;
+                      font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+                      font-size: var(--fon-ziveparra);
+                      font-weight: 450px;
+                      height: 30px;
+                      line-height: 24px;
+                      margin-block-end: 0px;
+                      margin-block-start: 0px;
+                      margin-bottom: 0px;
+                      margin-inline-end: 0px;
+                      margin-inline-start: 0px;
+                      margin-left: 0px;
+                      margin-right: 0px;
+                      margin-top: 0px;
+                      overflow-wrap: break-word;
+                      padding-bottom: 5px;
+                      padding-left: 20px;
+                      padding-right: 30px;
+                      padding-top: 35px;
+                      text-align: start;
+                      unicode-bidi: isolate;
+                      text-align:left;
+                      font-family: "Nunito", serif;
+                      font-optical-sizing: auto;
+                      font-weight: 900;
+                      font-style: normal;
+      }
+      .amor{
+                      align-items: center;
+                      justify-content: center;
+                      display: flex;
+                      padding-top: 180px;
+                      padding-bottom: 180px;
+      }
+      .juntos{
+                      display: flex;
+                      background-color: aliceblue;
+                      color: var(--color_primario);
+                      font-size: var(--fon-ziveparra);
+                      padding-top: 180px;
+                      padding-left: 300px;
+                      padding-right: 300px;
+                      padding-bottom: 180px;
+                      text-align: center;
+                      font-family: "Nunito", serif;
+                      font-optical-sizing: auto;
+                      font-weight: 900;
+                      font-style: normal;
+      }
+      
+                              /******Clinica******/ 
+      .clinicax2{
+                      background-color: var(--color_primario_suave);
+                      height: 350px;
+                      background-image: url(../img/pyg.png);
+                      background-repeat: no-repeat;
+                      background-position-x: 80%;
+      }
+      .cajac{
+              display: flex;
+              flex-direction: column;
+      }
+      .clinih{
+                      display: flex;
+                      justify-content: center;
+                      text-align: center;
+                      margin-top: 75px;
+                      margin-left: 50px ;
+                      width: 50%;
+                      font-size: var(--fon_zivetitulo) ;
+                      color: var(--color_blanco);
+                      text-shadow: 1px 1px 10px var(--texto-sombra);
+      }
+      .cliniip{
+                      color: var(--color_blanco);
+                      width:50%;
+                      font-size: var(--fon-ziveparra);
+                      display: flex;
+                      text-align: center;
+                      margin-bottom: 75px;
+                      margin-top: 15px;
+                      margin-left: 45px;
+                      text-shadow: 1px 1px 10px var(--texto-sombra);
+              
+      }
+      .contigo{
+                      display: flex;
+                      align-items: center;
+                      justify-content: center;
+                      background-color: var(--color_primario);
+                      height: 450px;
+                      border-radius: 0 0 225px 225px;  
+                      margin-bottom: 200px;
+      }
+      .yoyo{
+              padding: 140px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              flex-direction: column;
+      }
+      .contigo1{       
+                      padding-top: 35px;
+                      font-size: 25px;
+                      color: var(--color_blanco); 
+                      text-shadow: 1px 1px 10px var(--texto-sombra);              
+      }
+      .slider-box{
+                      display: flex;
+                      Justify-content: Space-evenly;
+                      align-items: center;
+                      background-image: url(../img/fondo.jpg);
+                      height: 500px;
+                      margin-bottom: 200px;
+      }
+      .imgi{
+              padding-right: 65px;
+      }
+      .carrusell{
+                      display: flex;
+                      flex-wrap: nowrap;
+      }
+      .elemento{
+                      flex: 1 0 auto;
+                      margin: 0 50px;
+      }
+      .elemento img{
+                      width: 500px;
+                      height: 350px;
+      }
+                              /******video******/
+      .vidio{
+              background-color: var(--color_blanco);
+              display: flex;
+              align-items: center;
+              margin: 160px;
+      }
+      .vidiod{
+                      display: flex;
+                      flex-direction: column;
+                      margin: 60px;}
+      .vidioh{
+                      font-size: var(--fon_zivetitulo);
+                      color: var(--color_primario);
+                      text-shadow: 1px 1px 10px var(--texto-sombra); 
+      }
+      .vidioh3{
+                      font-size: var(--fon_zivetitulo);
+                      color: var(--color_primario_suave);
+                      padding-top: 80px;
+      }
+      .vidiop{
+                      font-size: var(--fon-ziveparra);
+                      color: var(--color_primario);
+                      padding-top: 80px;
+      }
+      
+                              /******Cirugia******/
+      .cirugia{
+                      display: flex;
+                      flex-direction: column;
+                      align-items: center;
+                      justify-content: center;
+                      height: 500px;
+                      background-image: url(../img/cirugia.jpg);
+                      background-repeat:round;
+      }
+      .cirugia01{
+                      font-size: var(--fon_zivetitulo);
+                      color:var(--color_blanco);
+                      text-align: center;
+                      padding-bottom:25px;
+                      text-shadow: 1px 1px 10px var(--texto-sombra);
+      }
+      .cirugia1{
+                      color: var(--color_blanco);
+                      font-size: var(--fon-ziveparra);
+                      text-align: center;
+                      padding-left:50px;
+                      padding-right: 50px;
+                      text-shadow: 1px 1px 10px var(--texto-sombra); 
+      }
+      .slider-box2{
+                      display: flex;
+                      Justify-content: Space-evenly;
+                      align-items: center;
+                      background-color: var(--color_blanco);
+                      height: 500px;
+                      margin-bottom: 200px;
+              }
+      
+                              /******Especialidades******/
+      .trauma{
+                      background-color: var(--color_primario_suave);
+                      display: flex;
+                      Justify-content: Space-evenly;
+                      align-items: center;
+                      height: 650px;
+      }
+      .trauma1{
+                      display: flex;
+                      flex-direction: column;
+                      justify-content: flex-start;
+                      padding-left: 20px;
+                      padding-top: 25px;
+                      height: 300px;
+                      width: 30%;
+                      text-align:left;
+                      color: var(--color_primario);
+                      text-shadow: 1px 1px 10px var(--texto-sombra);
+      }
+      .trauma2{
+                      color: var(--color_blanco);
+                      font-size: var(--fon_zivetitulo);  
+                      padding-bottom: 15px; 
+                      text-shadow: 1px 1px 10px var(--texto-sombra);   
+      }
+      .trauma3{
+                      font-size: var(--fon-ziveparra);
+      }
+      .trauma01{
+                      display: flex;
+                      justify-content:center;
+                      align-items: center;
+                      padding-top: 25px;
+                      height: 350px;
+                      width: 18%;
+                      text-align:left;
+                      color: var(--color_primario);
+                      text-shadow: 1px 1px 10px var(--texto-sombra);
+      }
+      .trauma03{
+                      height: 500px;
+      }
+      .trauma02{
+                      font-size: var(--fon-ziveparra);
+      }
+      .slider-frame{
+                      height: auto;
+                      margin: 50px auto 0;
+                      overflow: hidden;
+                      animation: slide 15s infinite;
+      }
+      .slider-frame ul{
+                              display: flex;
+                              padding: 0;
+                              width: 500%;
+      }
+      .slider.frame li{
+                              list-style: none;
+                              width: 100%;
+      }
+      .slider-frame img{
+                              width: 100%;  
+      }
+      
+                              /******Productos******/         
+      .calidad{ 
+                      background-color:var(--color_primario);
+                      display: flex;
+                      flex-direction: column;
+                      align-items: center;
+                      justify-content: center;
+                      height: 150px;
+                      padding-top:150px;
+                      padding-bottom: 160px;
+      }
+      .calidadh{      
+                      font-size: var(--fon_zivetitulo);
+                      color:var(--color_primario_suave);
+                      text-shadow: 1px 1px 10px var(--texto-sombra);
+      }
+      .calidadp{ 
+                      display: flex;
+                      align-items: center;
+                      text-align: center;
+                      font-size: var(--fon-ziveparra);
+                      color:  var(--color_blanco);
+                      padding-top: 40px;
+                      padding-left: 50px;
+                      padding-right: 50px;
+      }
+      .farmapet{
+                      display: flex;
+                      padding-top: 150px;
+                      padding-bottom: 100px;
+      }
+      .parasi{
+                      display: flex;
+                      flex-direction: column;
+                      background-color: rgba(16, 187, 187, 0.897);
+                      height: 490px;
+                      width: 320px;
+                      margin-left: 140px;
+                      margin-top: 40px;
+                      align-items: center;
+      }
+      .escudo{
+                      background-image: 40px;
+                      padding-top: 110px;
+      }
+      .farma-parra{
+                      text-align: center;
+                      color: var(--color_blanco);
+                      font-size: 35px;
+                      padding-top: 30px;
+                      width: 250px;
+                      text-shadow: 1px 1px 10px var(--texto-sombra);
+      }
+      .parasit{
+              background-color: var(--color_blanco);
+              border-style: solid;
+              border-width: 8px;
+              border-color: rgba(16, 187, 187, 0.897);
+              height: 490px;
+              width: 320px;
+              display: flex;
+              flex-direction: column;
+              justify-content: space-between;
+              padding-top: 30px;
+              padding-bottom: 30px;
+              margin-left: 140px;
+              margin-top: 40px;
+      }
+      .hp{
+              display: flex;
+              justify-content: flex-start;
+              padding-top: 5px;
+              padding-left: 15px;
+              padding-right: 20px;
+              font-size: 40px;
+              color: rgba(16, 187, 187, 0.897);
+      }
+      .parra{
+              width: 290px;
+              display: flex;
+              justify-content: flex-start;
+              font-size: var(--fon-ziveparra);
+              padding-left: 15px;
+              color: rgba(16, 187, 187, 0.897);
+      }
+      .virus{
+              display: flex;
+              flex-direction: column;
+              background-color: rgba(145, 58, 137, 0.897);
+              height: 490px;
+              width: 320px;
+              margin-left: 140px;
+              margin-top: 40px;
+              align-items: center;
+      }
+      .vr{ 
+              padding-top:110px ;
+              background-image: 40px;
+      }
+      .virus1{
+                      background-color: var(--color_blanco);
+                      border-style: solid;
+                      border-width: 8px;
+                      border-color: rgba(145, 58, 137, 0.897);
+                      height: 490px;
+                      width: 320px;
+                      display: flex;
+                      flex-direction: column;
+                      justify-content: space-between;
+                      padding-top: 30px;
+                      padding-bottom: 30px;
+                      margin-left: 140px;
+                      margin-top: 40px;
+      }
+      .hv{
+              display: flex;
+              justify-content: flex-start;
+              padding-top: 5px;
+              padding-left: 15px;
+              color: rgba(145, 58, 137, 0.897);
+              font-size: 40px;
+      }     
+      .parrav{        
+                      width: 290px;
+                      display: flex;
+                      justify-content: flex-start;
+                      font-size: var(--fon-ziveparra);
+                      padding-left: 15px;
+                      color: rgba(145, 58, 137, 0.897);
+      }
+      .oftal{
+              display: flex;
+              flex-direction: column;
+              background-color: var(--color_primario);
+              height: 490px;
+              width: 320px;
+              margin-left: 140px;
+              margin-top: 40px;
+              align-items: center;
+      }
+      .of{
+              background-image: 40px;
+              padding-top: 110px;
+      }
+      .oftal1{
+              background-color: var(--color_blanco);
+              border-style: solid;
+              border-width: 8px;
+              border-color: var(--color_primario);
+              height: 490px;
+              width: 320px;
+              display: flex;
+              flex-direction: column;
+              justify-content: space-between;
+              padding-top: 30px;
+              padding-bottom: 30px;
+              margin-left: 140px;
+              margin-top: 40px;
+      }
+      .ho{
+              display: flex;
+              justify-content: flex-start;
+              padding-top: 5px;
+              padding-left: 15px;
+              padding-right: 15px;
+              color: var(--color_primario);
+              font-size: 40px;
+      } 
+      .parrao1{
+              width: 290px;
+              display: flex;
+              justify-content: flex-start;
+              font-size: var(--fon-ziveparra);
+              padding-left: 15px;
+              color: var(--color_primario);
+      }
+      .farma{
+              padding-left: 25px;
+              padding-right:25px ;
+      }
+      .farma1{ 
+              padding-top: 100px;
+      }
+      .articulacion{
+                      display: flex;
+                      flex-direction: column;
+                      background-color: rgba(39, 145, 104, 0.897);
+                      height: 490px;
+                      width: 320px;
+                      margin-left: 140px;
+                      margin-top: 40px;
+                      align-items: center;
+      }
+      .arti{
+              background-image: 40px;
+              padding-top: 110px;
+      }
+      .articu1{
+              background-color: var(--color_blanco);
+              border-style: solid;
+              border-width: 8px;
+              border-color: rgba(39, 145, 104, 0.897);
+              height: 490px;
+              width: 320px;
+              display: flex;
+              flex-direction: column;
+              justify-content: space-between;
+              padding-top: 30px;
+              padding-bottom: 30px;
+              margin-left: 140px;
+              margin-top: 40px;
+      }
+      .ha{
+              display: flex;
+              justify-content: flex-start;
+              padding-top: 5px;
+              padding-left: 15px;
+              padding-right: 15px;
+              color: rgba(39, 145, 104, 0.897);
+              font-size: 40px;
+      } 
+      .parraa1{
+              width: 290px;
+              display: flex;
+              justify-content: flex-start;
+              font-size: var(--fon-ziveparra);
+              padding-left: 15px;
+              color: rgba(39, 145, 104, 0.897);
+      }
+      .intestino{
+                      display: flex;
+                      flex-direction: column;
+                      background-color: rgba(151, 17, 46, 0.897);
+                      height: 490px;
+                      width: 320px;
+                      margin-left: 140px;
+                      margin-top: 40px;
+                      align-items: center;
+      }
+      .int{ 
+              padding-top:110px ;
+              background-image: 40px;
+      }
+      .instes1{
+              background-color: var(--color_blanco);
+              border-style: solid;
+              border-width: 8px;
+              border-color: rgba(151, 17, 46, 0.897);
+              height: 490px;
+              width: 320px;
+              display: flex;
+              flex-direction: column;
+              justify-content: space-between;
+              padding-top: 30px;
+              padding-bottom: 30px;
+              margin-left: 140px;
+              margin-top: 40px;
+      }
+      .hi{
+              display: flex;
+              justify-content: flex-start;
+              padding-top: 5px;
+              padding-left: 15px;
+              color: rgba(151, 17, 46, 0.897);
+              font-size: 40px;
+      }     
+      .parrai{
+              display: flex;
+              justify-content: flex-start;
+              font-size: var(--fon-ziveparra);
+              padding-left: 15px;
+              width: 290px;
+              color: rgba(151, 17, 46, 0.897);
+      }
+      
+                              /******Clientes******/ 
+      .sabemos-por{ 
+              background-color: var(--color_primario);
+              display: flex;
+              flex-direction: column;
+              height: 650px;
+      }
+      .sabemos-integral{
+              color: var(--color_blanco);
+              font-size: var(--fon_zivetitulo);
+              margin: 90px 300px;
+              width: 750px;
+      }
+      .bienan{
+              color: var(--color_blanco);
+              font-size: var(--fon-ziveparra);
+              width: 75%;
+              margin-left: 300px;
+      }
+      .bienan-p{
+              color: var(--color_blanco);
+              font-size: var(--fon-ziveparra);
+              width: 75%;
+              margin-left: 300px;
+              padding-top: 55px;
+      }
+      .caja-padre{
+                      display: flex;
+                      Justify-content: Space-evenly;
+                      align-items: center;
+      }
+      .caja-pa{
+              background-color: rgb(129, 176, 238);
+              width: 580px;
+              height: 720px;
+              padding-top: 35px;
+              text-align: center;
+              margin-bottom: 150px;
+              margin-top: 150px;
+      }
+      .caja-img{ 
+                      width: 500px;
+                      height: 500px;
+      }
+      .caja-h2{ color: var(--color_primario);
+              font-size: var(--fon-ziveparra);
+              text-align:left ;
+              margin-left: 40px;
+              width: 70%;
+              padding-top: 5px;
+              padding-bottom: 5px;
+      }
+      .caja-parra{
+              color: var(--color_primario);
+              font-size: var(--fon-ziveparra);
+              text-align:left ;
+              margin-left: 40px;
+              width: 80%;
+              padding-top: 5px;
+              padding-bottom: 5px;
+      }
+      .caja-pa1{
+              background-color: rgb(161, 133, 148);
+              width: 580px;
+              height: 720px;
+              padding-top: 35px;
+              text-align: center;
+              margin-bottom: 150px;
+      }
+      .caja-pa2{
+              background-color: rgb(115, 184, 144);
+              width: 580px;
+              height: 720px;
+              padding-top: 35px;
+              text-align: center;
+              margin-bottom: 150px;
+      }
+      .sabemos{ 
+              background-color: var(--color_primario);
+              display: flex;
+              Flex-direction: column;
+              
+      }
+      .sabemos-h{
+              color: var(--color_blanco);
+              font-size: var(--fon_zivetitulo);
+              margin-left: 300px;
+              padding-top: 150px;
+              padding-bottom: 55px;
+              width: 750px;
+      }
+      .sabemos-p{
+              color: var(--color_blanco);
+              font-size: var(--fon-ziveparra);
+              text-shadow: 1px 1px 10px var(--texto-sombra);
+              width: 75%;
+              margin-left: 300px;
+              margin-bottom: 85px;
+              padding-bottom: 55px;
+              
+      }
+      
+                              /******Contactos******/  
+      
+      .contactos{
+                      background-image: url(../img/varios.png);
+                      display: flex;
+                      flex-direction: column;
+                      align-items: center;
+                      justify-content: center;
+                      height: 500px;
+                      background-repeat:round;
+      }
+      .texcontacto{
+                      font-size: var(--fon_zivetitulo);
+                      color:  var(--color_primario_suave);          
+                      text-align: center;
+                      text-shadow: 1px 2px 10px var(--texto-sombra);
+      }
+      .contacot-seccion{
+                      background-color: var(--color_blanco);
+                      display: flex;
+                      flex-direction: column;
+      }
+      .contacto-uno{ 
+                      display: flex;
+                      align-items: center;
+                      justify-content: center;
+                      flex-direction: column;
+                      color: var(--color_primario);
+                      font-size: var(--fon-ziveh);
+                      padding: 35px;
+      }
+      .contacto-uno h2{ 
+                              color: var(--color_primario_suave);
+                              margin-bottom: 15px;
+                      
+      }
+      .redes-sociales{ 
+              background-color: var(--color_blanco);
+              display: flex;
+              Justify-content: Space-evenly;
+              align-items: center;
+      }
+      .caja-redes{
+              width: 50%;
+              height: 350px;
+              padding-left: 30px;
+      }
+      .siguenos{
+                      display: flex;
+                      flex-direction: column;
+                      justify-content: flex-start;
+                      color: var(--color_primario_suave);
+                      font-size: var(--fon-ziveparra);
+                      margin: 40px;
+      }
+      .contacto-img{
+                      display: flex;
+                      justify-content: center;
+                      align-items: center;
+                      background-color:var(--color_primario) ;
+                      width: 60px;
+                      height: 55px;
+                      margin: 10px;   
+      }
+      .redes{
+                      display: flex;
+                      flex-direction: row;
+      }
+      .contacto-cuatro{
+                      display: flex;
+                      flex-direction: column;
+                      justify-content: flex-start;
+                      color: var(--color_primario_suave);
+                      font-size: var(--fon-ziveparra);
+                      margin: 40px;
+      }
+      .contacto-cuatro p{
+                      color: var(--color_primario);}
+      .container h3{
+                      display: flex;
+                      font-size: 35px;
+                      color: var(--color_primario_suave);
+      }
+      .container{
+                      max-width:40%;
+                      width: 100%;
+                      padding: 65px 30px 10px 0px;
+                      border-radius: 15px;
+      }
+      .container h3{
+                      font-size: var(--fon_zivetitulo);
+      }
+      .container .title{
+                      font-size: var(--fon-ziveparra);
+                      font-weight: 500;
+                      color: var(--color_primario);
+      }
+      .container form{
+                      display: flex;
+                      flex-wrap: wrap;
+                      justify-content: space-between;
+                      margin: 10px 12px 0;
+                      padding-bottom: 35px;
+      }
+      form .form-group{
+                      margin-bottom: 15px;
+      }
+      form label{
+                      display: block;
+                      font-weight: 500;
+                      margin-bottom: 5px;
+      }
+      .form-group input{
+                      height: 40px;
+                      width: 100%;
+                      outline: none;
+                      border-radius: 5px;
+                      border: 1px solid var(--color_blanco);
+                      padding-left:15px ;
+                      border-bottom-width: 2px;
+                      transition: all 0.3s ease;
+      }
+      .cuesti{
+                      height: 40px;
+                      width: 100%;
+                      outline: none;
+                      border-radius: 5px;
+                      border: 1px solid var(--color_blanco);
+                      padding-left:15px ;
+                      border-bottom-width: 2px;
+                      transition: all 0.3s ease;
+              
+      }
+      .form-group input:focus, 
+      .form-group input:valid{
+                              border-color: var(--color_primario);
+      }
+      .form-group textarea:focus, 
+      .form-group textarea:valid{
+                              border-color: var(--color_primario);
+      }
+      .form-group select:focus, 
+      .form-group select:valid{
+      
+                              border-color: var(--color_primario)
+      }
+      form .submit{
+                      width: 100px;
+                      height: 40px;
+                      margin: 40px 0;
+      }
+      form .envios{
+                      width: 100%;
+                      height: 40px;
+                      outline: none;
+                      cursor: pointer;
+                      background:  linear-gradient(
+                      90deg,
+                      rgba(141, 127, 155, 0.418) 35%,
+                      rgb(180, 187, 190) 70%);
+                      color: var(--color_primario_suave);
+                      font-size: var(--fon-ziveparra);
+                      font-weight: 500px;
+                      border: none;
+                      border-radius: 5px;
+      }
+                              /******Footer******/  
+      .footer{
+                      position: relative;
+                      width:100%;
+                      background-color:var(--color_primario);
+                      min-height: 15px 20px;
+                      padding:10px 20px ;
+                      display: flex;
+                      justify-content: center; 
+                      align-items: center;
+                      flex-direction: column;
+      }
+      .sera{
+              display: flex;
+              position:static;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              padding-top: 35px;
+      }
+      .social-icon{
+                      position:static;
+                      display: flex;
+                      justify-content: center;
+                      align-items: center;
+      }
+      .icon-elem{
+                      list-style: none;
+      }
+      .icon{
+              display: flex;
+              color: var(--color_blanco);
+              font-size: 32px;
+              display:inline-block ;
+              margin: 0 10px;
+              transition: 0.5s;
+      }
+      .icon:hover{
+                      transform: translateY(-10px);
+      }
+      .menu{
+              display: flex;
+              justify-content: center;
+              position: relative;
+              align-items: center;
+              margin: 10px 0;
+              flex-wrap: wrap;}
+      .menu-elem{
+                      list-style: none;
+      }
+      .menu-icon{
+                      color: var(--color_blanco);
+                      font-size: 22px;
+                      display: inline-block;
+                      text-decoration: none;
+                      margin: 5px 10px;
+                      opacity: 0.5;
+                      transition: 0.3s;
+      }
+      .menu-icon:hover{
+                      opacity:1;
+      }
+      text{
+              color: var(--color_blanco);
+              text-align: center;
+              margin-top: 15px;
+              margin-bottom: 10px;
+              font-size: var(--fon-ziveparra);
+      }
+      
